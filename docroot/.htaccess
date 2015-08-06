@@ -1,0 +1,13 @@
+# Use PHP5 Single php.ini as default
+#AddHandler application/x-httpd-php5s .php
+
+#AuthUserFile /home/capnpcut/sites/phpliteadmin.joesvolcano.net/.htpasswd
+#AuthName "How many trunks does joe have?"
+#AuthType Basic
+#require valid-user
+#allow from all
+
+php_flag display_startup_errors on
+php_flag display_errors on
+php_flag html_errors on
+php_flag  log_errors on
